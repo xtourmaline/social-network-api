@@ -13,7 +13,7 @@ const userSchema = new Schema(
             required: true,
             unique: true,
             // https://stackoverflow.com/a/508151
-            match: [`^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$`, "Please enter a valid email address"]
+            match: [/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/, "Please enter a valid email address"]
         },
         thoughts: [
             {
