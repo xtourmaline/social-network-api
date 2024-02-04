@@ -1,6 +1,4 @@
-const { ObjectId } = require('mongoose').Types;
 const { User, Thought } = require('../models');
-const { findOne, findOneAndUpdate } = require('../models/User');
 
 module.exports = {
     // get all users
@@ -101,7 +99,7 @@ module.exports = {
 
             const user = await User.findOneAndUpdate(
                 { _id: req.params.userId },
-                { $push: { friends: friend }},
+                { $addToSet: { friends: friend }},
                 { new: true}
             );
 
