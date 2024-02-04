@@ -12,7 +12,7 @@ const thoughtSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: () => {
+            get: function() {
                 return this.createdAt.toLocaleDateString("en-US");
             }
         },
@@ -30,7 +30,7 @@ const thoughtSchema = new Schema(
     }
 );
 
-thoughtSchema.virtual("reactionCount").get(() => {
+thoughtSchema.virtual("reactionCount").get(function() {
     return this.reactions.length;
 })
 
