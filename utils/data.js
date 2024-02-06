@@ -53,7 +53,7 @@ const thoughts = [
     `I just got engaged. He proposed to me at the Eiffel Tower. It was so romantic. I said yes, of course. #engaged #heputaringonit`,
     `I just quit my job. I'm done with the corporate rat race. I'm going to travel the world and follow my passion. #quitmyjob #livemydream`,
     `I just dyed my hair pink. I love it. It's so fun and funky. #pinkhairdontcare #newlook`,
-    `I just had the best burger ever. It was juicy, cheesy, and loaded with bacon. #burgerporn #foodcoma`,
+    `I just had the best burger ever. It was juicy, cheesy, and loaded with bacon. #burger #foodcoma`,
     `I just met the love of my life. He is smart, funny, and handsome. He also loves cats. #soulmate #meow`,
     `I just got a promotion. I'm now the manager of my department. I'm so happy and proud. #bossbabe #careergoals`,
     `I just had the worst day ever. Everything went wrong. I spilled coffee on my shirt, missed the bus, got yelled at by my boss, and lost my wallet. #worstdayever #needahug`,
